@@ -1,0 +1,129 @@
+.root {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    background-color: #fff;
+}
+.nav {
+    position: relative;
+    padding: 1rem;
+    width: 85%;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: black;
+    font-family: Comfortaa;
+    font-weight: 900;
+    display: flex;
+}
+.logoText {
+    text-align: right;
+    font-size: 27px;
+}
+.logoBrackets {
+    color: #1c67da;
+    margin-left: 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 50px;
+}
+.bar {
+    background-color: #1c67da;
+    height: 11%;
+    width: 100%;
+    position: absolute;
+    border-radius: 2rem;
+}
+.bar1 {
+    top: 22%;
+    width: 75%;
+    right: 0;
+}
+.bar2 {
+    top: 40%;
+    width: 95%;
+    right: 0;
+}
+.bar3 {
+    top: 60%;
+    width: 40%;
+    right: 0;
+}
+.bar4 {
+    top: 80%;
+    width: 60%;
+    right: 0;
+}
+.bars {
+    padding: 0 10px;
+    vertical-align: bottom;
+    width: 45px;
+    height: 50px;
+    overflow: visible;
+    position: relative;
+    box-sizing: border-box;
+}
+.links {
+    width: 44rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navLinks {
+    font-family: Comfortaa;
+    font-weight: 800;
+    position: relative;
+}
+
+.link {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #000;
+    font-family: Comfortaa;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.login {
+    background: linear-gradient(90deg, #5e81f4, #1c67da);
+    border-radius: 9.32px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    font-family: Comfortaa;
+    font-weight: 800;
+    height: 49px;
+    width: 7rem;
+    border: none;
+}
+@media only screen and (max-width: 600px) {
+    .links {
+        display: none;
+    }
+    .nav {
+        width: 90%;
+        margin-left: 0;
+        z-index: 50;
+        background-color: white;
+    }
+    .login {
+        height: 35px;
+        width: 65px;
+        font-size: 15px;
+    }
+    .logo {
+        height: 2rem;
+        width: 8rem;
+    }
+}

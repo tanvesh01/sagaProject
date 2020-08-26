@@ -1,0 +1,47 @@
+.rootContainer {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.company {
+    height: 2.4rem;
+    width: 10rem;
+    min-width: 8rem;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.companyImage {
+    width: auto;
+    height: auto;
+    max-width: 10rem;
+    max-height: 2.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .company {
+        flex: 0 0 calc(50% - 1em);
+    }
+    .rootContainer {
+        height: 15rem;
+        padding-bottom: 2rem;
+    }
+}
+
+/* @media only screen and (min-width: 30em) {
+    .company {
+        flex: 0 0 calc(33.3333% - 1em);
+    }
+} */
