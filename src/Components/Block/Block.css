@@ -54,11 +54,9 @@
 }
 
 @media only screen and (min-width: 30em) {
-    .topic {
-        /* flex: 0 0 calc(33.3333% - 1em); */
-        /* width: 135px;
+    /* flex: 0 0 calc(33.3333% - 1em); */
+    /* width: 135px;
         height: 135px;
         margin: 0 0 1.5rem 0;
         font-size: 1rem; */
-    }
 }
